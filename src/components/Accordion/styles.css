@@ -1,0 +1,38 @@
+.wrapper{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .accordion{
+    width: 500px;
+  }
+
+  .accordion button {
+    background-color: rgb(228, 118, 8);
+    margin-bottom: 20px;
+    width: 60%;
+    padding: 10px;
+  }
+
+  .item{
+    color: #ffffff;
+    background-color: rgb(228, 118, 8);
+    margin-bottom: 10px;
+  }
+
+  .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+  }
+
+  .content{
+    height: auto;
+    padding: 10px 30px;
+  }
