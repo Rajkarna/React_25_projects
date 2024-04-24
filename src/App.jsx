@@ -2,6 +2,7 @@ import React from 'react'
 import Accordion from './components/Accordion'
 import RandomColor from './components/Randomcolor'
 import StarRating from './components/star-rating'
+import LoadMore from './components/load-button'
 
 const App = () => {
   return (
@@ -13,7 +14,9 @@ const App = () => {
       {/* <RandomColor /> */}
 
       {/* star rating component */}
-      <StarRating noOfStars={10}/>
+      {/* <StarRating noOfStars={10}/> */}
+
+      <LoadMore />
     </div>
   )
 }
