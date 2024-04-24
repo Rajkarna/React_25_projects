@@ -1,0 +1,11 @@
+.star-rating{
+    text-align: center;
+}
+
+.active{
+    color: #f6ef2d;
+}
+
+.inactive{
+    color:black;
+}
